@@ -23,12 +23,13 @@ Maybe on diferent enviromment is possible to install more dependecies.
 
 There are two ways to run it :
 
-In both cases you should change the path for development.ini. This step is important to initialize and create the database.
+->In both cases you should change the path for development.ini. This step is important to initialize and create the database.
 
-Change the path of the following commands in development.ini. Rename the path: "C:/Users/Bruno/PycharmProjects/GERU/development.ini" to desire one.
+->Change the path of the following commands in development.ini. Rename the path: "C:/Users/Bruno/PycharmProjects/GERU/development.ini" to desire one.
    -setup_logging("C:/Users/Bruno/PycharmProjects/GERU/development.ini")
    -settings = get_appsettings("C:/Users/Bruno/PycharmProjects/GERU/development.ini")
-   
+  
+ ->The application will run on :http://localhost:6543
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 Mode one : 
